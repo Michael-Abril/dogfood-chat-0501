@@ -1,0 +1,15 @@
+
+> my-saas-app@0.1.0 build /home/macoding/varity-workspace/varity-sdk-private/templates/saas-starter
+> next build
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /home/macoding/varity-workspace/package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /home/macoding/varity-workspace/varity-sdk-private/pnpm-lock.yaml
+
+   ▲ Next.js 15.5.11
+
+   Creating an optimized production build ...
+ ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match

@@ -1,0 +1,18 @@
+{
+  "name": "dogfood-chat-0501",
+  "version": "0.1.0",
+  "framework": "nextjs",
+  "hosting": "static",
+  "build": {
+    "command": "npm run build",
+    "output": "out"
+  },
+  "database": {
+    "provider": "varity",
+    "collections": [
+      "projects",
+      "tasks",
+      "team_members"
+    ]
+  }
+}
