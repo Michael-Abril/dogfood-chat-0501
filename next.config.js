@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   outputFileTracingRoot: __dirname,
-  output: 'export',
-  images: { unoptimized: true },
-  trailingSlash: true,
+  output: 'standalone',
   productionBrowserSourceMaps: false,
   webpack: (config, { isServer, dev }) => {
     // Suppress unused optional peer dependencies from UI Kit internals

@@ -40,3 +40,11 @@ blob-report/
 
 # Vercel (if ejected)
 .vercel
+
+# Added by Varity
+__pycache__/
+*.pyc
+.env
+.env.*.local
+.venv/
+venv/
