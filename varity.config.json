@@ -2,18 +2,9 @@
   "name": "dogfood-chat-0501",
   "version": "0.1.0",
   "framework": "nextjs",
-  "hosting": "static",
+  "hosting": "dynamic",
   "build": {
-    "command": "npm run build",
-    "output": "out"
-  },
-  "database": {
-    "provider": "varity",
-    "collections": [
-      "projects",
-      "tasks",
-      "team_members"
-    ]
+    "command": "npm run build"
   },
   "github_repo": "https://github.com/Michael-Abril/dogfood-chat-0501.git"
 }
